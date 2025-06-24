@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+
 }
 
 .btn {
@@ -8,7 +10,15 @@ body {
     border: 10px solid black;
     border-radius: 20%;
     margin: 2.5rem;
+    font-weight: 900;
+    /* Extra bold */
+    font-size: 3rem;
+    /* Optional: make text bigger */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .btn-container {
     display: flex;
